@@ -22,3 +22,35 @@ npm run dev
 ```
 
 Open [http://127.0.0.1:3000](http://127.0.0.1:3000). The fleet pills switch FD001–FD004 on every page.
+
+## Screenshots
+
+FD001, unit 1.
+
+![Fleet page for FD001](assets/fleet.png)
+
+Fleet, `/`. Train and test counts, dropped columns, and the engine list.
+
+![Explore page for FD001](assets/explore.png)
+
+Explore, `/explore`. Sensor spread, correlation, flight regimes, and run length.
+
+![Engine page for FD001 train unit 1](assets/engine.png)
+
+Engine, `/engine`. Operating settings and kept sensors for train unit 1.
+
+![Health page for FD001 train unit 1](assets/health.png)
+
+Health, `/health`. Degradation curve for train unit 1.
+
+![Predict page for FD001 test unit 1](assets/predict.png)
+
+Predict, `/predict`. Held-out prediction for test unit 1.
+
+![Scores page](assets/scores.png)
+
+Scores, `/scores`. Ridge and boosting on all four fleets, with FD001 errors.
+
+![Tuning page for FD001](assets/tuning.png)
+
+Tuning, `/tuning`. Training-only search for FD001.
